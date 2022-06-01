@@ -44,7 +44,7 @@ These are some points i considered while choosing Golang as Programming language
     * It is implemented by and documented in the go/build package and is used to resolve import statements. 
 
 ---
-## day 2
+## Day 2
   * Data type is an important concept in programming. Data type specifies the size and type of variable values.
 
    * Go is statically typed, meaning that once a variable type is defined, it can only store data of that type.
@@ -56,11 +56,28 @@ These are some points i considered while choosing Golang as Programming language
     >Numeric: represents integer types, floating point values, and complex types
 
     >string: represents a string value
-
-## day 3
+---
+## Day 3
 
   > ### Function
 
- * A function is a group of statements that together perform a task
+     A function is a group of statements that together perform a task
 
-* A function declaration tells the compiler about a function name, return type, and parameters. A function definition provides the actual body of the function.
+     A function declaration tells the compiler about a function name, return type, and parameters. A function definition provides the actual body of the function.
+
+> ### Loops
+
+    * when you need to execute a block of code several number of times then we use loop.
+
+    * A loop statement allows us to execute a statement or group of statements multiple times.
+
+> ### Pointer
+
+     * A pointer is a variable whose value is the address of another variable
+
+
+    var var_name *var-type
+
+    
+
+
