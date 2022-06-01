@@ -112,5 +112,20 @@ These are some points i considered while choosing Golang as Programming language
 
     > cap() function - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
 
+ ## Day5   
+
+  > ### Struct
+
+* Go’s structs are typed collections of fields. They’re useful for grouping data together to form records.
+
+      type struct_variable_type struct {
+      member definition;
+      member definition;
+      ...
+      member definition;
+      }
+
+      
+
 
 
