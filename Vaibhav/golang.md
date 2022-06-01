@@ -78,6 +78,39 @@ These are some points i considered while choosing Golang as Programming language
 
     var var_name *var-type
 
+
+## Day 4
     
+  > ### Arrays
+
+    * In Go, an array is a numbered sequence of elements of a specific length. 
+
+  >Declaring Arrays :-
+
+  * To declare an array in Go, a programmer specifies the type of the elements and the number of elements required by an array as follows.
+
+        var variable_name [SIZE] variable_type
+
+  > ### Slices
+
+    * Slices are similar to arrays, but are more powerful and flexible.
+
+    * Like arrays, slices are also used to store multiple values of the same type in a single variable.
+
+    * However, unlike arrays, the length of a slice can grow and shrink as you see fit.
+
+    * In Go, there are several ways to create a slice:
+
+    * Using the []datatype{values} format
+
+    > slice_name := []datatype{values}
+    > myslice := []int
+
+*  in Go, there are two functions that can be used to return the length and capacity of a slice:
+
+    >len() function - returns the length of the slice (the number of elements in the slice)
+
+    > cap() function - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+
 
 
