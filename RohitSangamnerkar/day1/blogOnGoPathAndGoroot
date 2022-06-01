@@ -1,0 +1,21 @@
+Blog on GOPATH and GOROOT :
+
+GOROOT and GOPATH
+
+    GOPATH & GOROOT are the environment variable.
+
+what is environment variable ?
+
+    Environmental variables are variables that are defined for the current shell and are inherited by any child shells or processes. - Environmental variables are used to pass information into processes that are spawned from the shell.
+
+    GOROOT
+
+    $GOROOT has always been defined as a pointer to the root of your Go installation.
+    The Go binary distributions assume they will be installed in /usr/local/go
+
+    GOPATH
+
+    GOPATH, also called the workspace directory, is the directory where the Go code belongs.
+
+    It is implemented by and documented in the go/build package and is used to resolve import statements.
+
