@@ -147,6 +147,18 @@ These are some points i considered while choosing Golang as Programming language
       
     default:
       // default code block
-  }
+    }
+
+## Day6  
 
 
+> ### Maps
+
+*    Go provides another important data type named map which maps unique keys to values. A key is an object that you use to retrieve a value at a later date. Given a key and a value, you can store the value in a Map object. After the value is stored, you can retrieve it by using its key.
+
+
+### Defining a Map
+
+  //declare a variable, by default map will be nil
+
+    var map_variable map[key_data_type]value_data_type
