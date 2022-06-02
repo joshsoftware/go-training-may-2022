@@ -125,7 +125,28 @@ These are some points i considered while choosing Golang as Programming language
       member definition;
       }
 
-      
+ > ### Switch
 
+   * Switch statements express conditionals across many branches.
+      
+### Syntax of Golang switch
+
+
+
+      switch expression {
+    case 1:
+      // code block 1
+
+    case 2:
+      // code block 2
+
+    case 3:
+      // code block 3
+    ...
+    ...
+      
+    default:
+      // default code block
+  }
 
 
