@@ -16,7 +16,7 @@ func GoRoutines() {
 		wg.Add(1)
 	}
 	wg.Wait()
-	fmt.Println("Go routine completed")
+	//fmt.Println("Go routine completed")
 }
 
 func Channels() {
@@ -37,5 +37,4 @@ func sum(s []int, c chan int) {
 
 func main() {
 	GoRoutines()
-	Channels()
 }
