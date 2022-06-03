@@ -12,7 +12,7 @@ func (t *TestNumber) incrementValue(m *sync.Mutex, wg sync.WaitGroup) {
 	// m.Lock will block other go routines
 	m.Lock()
 	t.Value += 1
-	wg.Done()
+	defer wg.Done()
 	m.Unlock()
 }
 

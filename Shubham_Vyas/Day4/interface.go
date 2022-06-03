@@ -59,6 +59,8 @@ func learnInterface() {
 		FirstName: "Shubham",
 		LastName:  "Vyas",
 	}
+
+	// In an empty interface, there are no methods to declare, hence all the types are by default satisfy an empty interface therefore we can pass any value as an input parameter printInterface function
 	// As the printInterface function takes an empty interface, We can assign any value to it
 	printInterface(stringType)
 	printInterface(intType)

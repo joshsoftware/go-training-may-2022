@@ -4,7 +4,7 @@ import "fmt"
 
 // Output would be Hello than World
 func learnDefer1() {
-	// defer will delay the execution untill function returns
+	// Defer will be evaluated here and executed once the function return
 	defer fmt.Println("World")
 	fmt.Println("Hello")
 }
