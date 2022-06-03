@@ -71,9 +71,7 @@ func main() {
 		columnInput := ""
 		fmt.Printf("Please enter grid between 3 to 10: ")
 		fmt.Scanln(&columnInput)
-
 		var err error
-
 		columns, err = strconv.Atoi(columnInput)
 		if err != nil || columns < 3 || columns > 10 {
 			fmt.Println("Invalid grid selected")
