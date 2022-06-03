@@ -1,0 +1,53 @@
+blog : 
+
+Title : why I choose go lang?
+
+-->
+
+Whenever we decide to learn anything not only programming language. We should ask ourself a one question. Why am I learning this thing or programming language?
+
+Today I have decided to learn a new programming language. Which is go-lang.So I asked a same question to
+myself. Why I choose to learn go-lang and how this language is diffrent than others. So this blog is all about
+this question.
+
+1 : History ->
+
+Go was originally designed by google in 2007.The go programming language is an open-source programming language and go language has focused on simplicity , reliability and efficiency.
+
+Go was originally designed for networking and infrastructure related programs.There are many high performance programming languages other than golang.And go was developed to replace these languages.
+
+2 : Application ->
+
+Go has many application :
+Using go we can design server side applications.
+Using go-lang many command line tools are developed.
+GO can be used in AI and Data Science world.
+Using go we can also develope a game.
+
+these are some of appication of GO lang.
+
+The next question comes to our mind is Why there is need to develope this language even if we have many other high performance languages?
+
+3 : Diffrent than other languages ->
+
+In compare to other programming language GO has below given advantages :
+	1 : Simplicity -> Go is simpler than other languages as go has simple syntax because go has removed semicolon , curly braces for 				   controlled structure.
+	2 : Quick Development -> GO has reduced a development time by considerably through the error checking , concurrency handling etc.
+	3 : Portability -> Go can be compiled for any programming language.
+	4 : Type Safety: Go was designed with a set of rules about how types must behave. So when it gives an error because of those 		     		  rules, you will know what happened and why without running more tests or debugging. 
+4 : Used by which companies
+
+And thses are some famous companies who uses Go-Lang :
+	1 : Google (Developed by google it self)
+	2 : Meta
+	3 : PayPal
+	4 : Twitter
+	5 : Netflix
+These are some of the main companies uses go-lang.
+
+There are some 3-4 point I have considered while choosing a Go Programming languege.
+
+========================================================= Thank You =======================================================================
+
+
+
