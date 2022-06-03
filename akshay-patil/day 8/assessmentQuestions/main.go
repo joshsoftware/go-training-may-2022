@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	//switchCaseExample()
-	//sliceExample()
-	namedReturnExample()
+	sliceExample()
+	//namedReturnExample()
 }
 
 func switchCaseExample() {
@@ -35,15 +35,14 @@ func sliceExample() {
 }
 
 // In the addingElement() method, if we try to append the slice,
-// it seems to be creating the new slice which seems to be having
-// method level scope
+// it seems to be creating a new slice which is of local scope
 func addingElement(colors []string) {
 	colors = append(colors, "green")
 	fmt.Println("colors--> ", colors)
 }
 
 // In the addingElementUsingPointer() method, if we try to append
-// the slice, it will do the append to the actual array too!
+// the slice, it will do the append to the actual slice too!
 func addingElementUsingPointer(colors *[]string) {
 	*colors = append(*colors, "green")
 	fmt.Println("colors--> ", *colors)
@@ -63,8 +62,13 @@ func namedReturnExample() {
 
 // In name return type, if we assign the result value to the return var name,
 // we don't even have to give anything after return statement.
-// And if we give any other name after return statement, then it should be same type.
+// And if we give any other var after return statement, then it should be same type.
 func sum(a, b int) (sum *int) {
 	s := a + b
 	return &s
 }
+
+// If we only have a foo() and if go package/file doesn't contains the main(), the
+// program will not execute and will get Build Failure. Because main() is an entry point of the program.
+// But in failed scenario, program execution will panic??
+func foo() {}
