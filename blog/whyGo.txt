@@ -1,0 +1,10 @@
+Pros of using GO:
+- Cross compilation capabilities
+- Designed to work better with multi-core hardwares
+- Higher efficiency because GO is compiled language
+
+History and Applications:
+- Has been around since 2007
+- Because Moore's Law has been failing in recent years, meaning that hardware isn't improving at the rate at which has been since the inception of Moore's Law, it is neccesary to implement efficient and faster software to make up for lower hardware improvement
+- Companies like Twitch, Uber, Slack, Riot Games and also financial institutions like American Express and Capital One  have been heavily implementing Go
+
